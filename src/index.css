@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cinzel', 'Cormorant Garamond', Georgia, serif;
+    --font-cormorant: 'Cormorant Garamond', Georgia, serif;
+    --font-chinese: 'Noto Serif SC', 'Songti SC', serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-serif-luxury {
+  font-family: 'Cinzel', 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-editorial {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-chinese {
+  font-family: 'Noto Serif SC', 'Songti SC', serif;
+}
+
+/* Luxury gold text gradient */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #F5E5C9 0%, #D4AF37 50%, #AA8232 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gold-bright {
+  background: linear-gradient(135deg, #FFF6E5 0%, #E6C875 50%, #C9A25D 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Luxury borders */
+.border-gold-subtle {
+  border-color: rgba(201, 162, 93, 0.2);
+}
+
+.border-gold-glow {
+  border-color: rgba(201, 162, 93, 0.45);
+  box-shadow: 0 0 15px rgba(201, 162, 93, 0.15);
+}
+
+/* Subtle Chinese geometric pattern background */
+.bg-dragon-subtle {
+  background-color: #0A0A0C;
+  background-image: radial-gradient(rgba(201, 162, 93, 0.05) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #0A0A0C;
+}
+::-webkit-scrollbar-thumb {
+  background: #2A261F;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C9A25D;
+}

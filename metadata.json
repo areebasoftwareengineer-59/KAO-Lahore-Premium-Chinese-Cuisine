@@ -1,0 +1,6 @@
+{
+  "name": "KAO Lahore | Premium Chinese Cuisine",
+  "description": "Experience luxury Chinese fine dining at KAO 龍王 Lahore in DHA Phase 5. Authentic flavors, exquisite ambience, signature seafood, wok specialties, and premier hospitality.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
